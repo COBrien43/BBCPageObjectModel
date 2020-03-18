@@ -12,10 +12,10 @@ public class Sportpage {
 		this.webDriver = webDriver;
 	}
 
-	public Sportpage goToSportPage(){
+	/*public Sportpage goToSportPage(){
 		webDriver.get("https://www.bbc.co.uk/sport");
 		return this;
-	}
+	}*/
 
 	public FormulaOnePage clickFormulaOneButton(){
 		webDriver.findElement(clickFormulaOneButton).click();

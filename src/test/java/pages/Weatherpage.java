@@ -12,10 +12,10 @@ public class Weatherpage {
 		this.webDriver = webDriver;
 	}
 
-	public Weatherpage goToWeatherpage(){
+	/*public Weatherpage goToWeatherpage(){
 		webDriver.get("https://www.bbc.co.uk/weather");
 		return this;
-	}
+	}*/
 
 	public MapPage clickDetailedMapButton(){
 		webDriver.findElement(detailedMapButton).click();

@@ -27,7 +27,7 @@ public class MyStepdefs {
 
 	@Blimey("I go to the weather page")
 	public void iGoToTheWeatherPage() {
-		weatherpage.goToWeatherpage();
+		weatherpage = homepage.selectWeatherButton();
 	}
 
 	@Aye("I click on the detailed map and I click on the dropdown menu")
@@ -43,7 +43,7 @@ public class MyStepdefs {
 
 	@Blimey("I go to the Sport page")
 	public void iGoToTheSportPage() {
-		sportpage.goToSportPage();
+		sportpage = homepage.selectSportButton();
 	}
 
 	@Aye("I click on the Formula One tab")

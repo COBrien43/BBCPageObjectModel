@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9a96894-6aa1-40fc-aaf7-d6a5d40b73fd" name="Default Changelist" comment="" />
+    <list default="true" id="f9a96894-6aa1-40fc-aaf7-d6a5d40b73fd" name="Default Changelist" comment="Tidied up stepdefs and added annotation tags">
+      <change afterPath="$PROJECT_DIR$/chromedriver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MyStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MyStepdefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/Sportpage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Sportpage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/Weatherpage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Weatherpage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/bbcweathermap.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/bbcweathermap.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bbcweathermap.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bbcweathermap.feature" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +24,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -32,19 +46,23 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="C:\Users\ConorO'Brien\IdeaProjects\BBCPOM" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="pages" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\ConorO'Brien\IdeaProjects\BBCPOM" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BBCPOM" />
+      <module name="BBCPageObjectModel" />
+      <useClassPathOnly />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestRunner" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -68,7 +86,23 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Tidied up stepdefs and added annotation tags" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tidied up stepdefs and added annotation tags" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="543" y="184" key="#TestRunner" timestamp="1584101555915">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="543" y="184" key="#TestRunner/65.24.1855.1056@65.24.1855.1056" timestamp="1584101555915" />
+    <state x="457" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584102465788">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="457" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog/65.24.1855.1056@65.24.1855.1056" timestamp="1584102465788" />
+    <state x="838" y="431" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1584101507767">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="838" y="431" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/65.24.1855.1056@65.24.1855.1056" timestamp="1584101507767" />
     <state x="363" y="112" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1582194533687">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -77,26 +111,42 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="40" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.768@0.0.1366.768" timestamp="1582123561819" />
+    <state x="575" y="116" key="CommitChangelistDialog2" timestamp="1584527568943">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="575" y="116" key="CommitChangelistDialog2/65.24.1855.1056@65.24.1855.1056" timestamp="1584527568943" />
     <state x="0" y="39" key="DBNavigator.ProjectSettingsDialog" timestamp="1582121802142">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="0" y="39" key="DBNavigator.ProjectSettingsDialog/0.0.1366.768@0.0.1366.768" timestamp="1582121802142" />
-    <state width="1323" height="191" key="GridCell.Tab.0.bottom" timestamp="1582195242872">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state x="780" y="297" key="FileChooserDialogImpl" timestamp="1584109116089">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="780" y="297" key="FileChooserDialogImpl/65.24.1855.1056@65.24.1855.1056" timestamp="1584109116089" />
+    <state width="1855" height="303" key="GridCell.Tab.0.bottom" timestamp="1584527325838">
+      <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="1323" height="191" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1582195242872" />
-    <state width="1323" height="191" key="GridCell.Tab.0.center" timestamp="1582195242872">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="1855" height="303" key="GridCell.Tab.0.bottom/65.24.1855.1056@65.24.1855.1056" timestamp="1584527325838" />
+    <state width="1855" height="303" key="GridCell.Tab.0.center" timestamp="1584527325838">
+      <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="1323" height="191" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1582195242872" />
-    <state width="1323" height="191" key="GridCell.Tab.0.left" timestamp="1582195242872">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="1855" height="303" key="GridCell.Tab.0.center/65.24.1855.1056@65.24.1855.1056" timestamp="1584527325838" />
+    <state width="1855" height="303" key="GridCell.Tab.0.left" timestamp="1584527325838">
+      <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="1323" height="191" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1582195242872" />
-    <state width="1323" height="191" key="GridCell.Tab.0.right" timestamp="1582195242872">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="1855" height="303" key="GridCell.Tab.0.left/65.24.1855.1056@65.24.1855.1056" timestamp="1584527325838" />
+    <state width="1855" height="303" key="GridCell.Tab.0.right" timestamp="1584527325838">
+      <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="1323" height="191" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1582195242872" />
+    <state width="1855" height="303" key="GridCell.Tab.0.right/65.24.1855.1056@65.24.1855.1056" timestamp="1584527325838" />
+    <state x="1117" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1584109105049">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="1117" y="380" key="com.intellij.ide.util.TipDialog/65.24.1855.1056@65.24.1855.1056" timestamp="1584109105049" />
     <state x="435" y="305" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1582121731820">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
